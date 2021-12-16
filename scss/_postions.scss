@@ -1,0 +1,74 @@
+// absolute positions
+.poa {
+  position: absolute;
+}
+.por {
+  position: relative;
+}
+.pof {
+  position: fixed;
+}
+.poCenter {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.poTop0 {
+  top: 0%;
+}
+.poBottom0 {
+  bottom: 0;
+}
+.poLeft0 {
+  left: 0;
+}
+.poRight0 {
+  right: 0;
+}
+.poCenterTop {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.poCenterBottom {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.poCenterLeft {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.poCenterRight {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.poTopLeft {
+  top: 0;
+  left: 0;
+}
+.poTopRight {
+  top: 0;
+  right: 0;
+}
+.poBottomLeft {
+  bottom: 0;
+  left: 0;
+}
+.poBottomRight {
+  bottom: 0;
+  right: 0;
+}
+div.inputContainer{
+
+  &-en{
+    i{
+      position: absolute;
+    }
+    @extend .poCenterLeft;
+}
+ 
+
+}

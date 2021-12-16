@@ -1,0 +1,66 @@
+// @font-face {
+//   font-family: VazirBold;
+//   src: url('../../assets/fonts/Vazir-Bold.eot');
+//   src: url('../../assets/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+//     url('../../assets/fonts/Vazir-Bold.woff2') format('woff2'), url('../../assets/fonts/Vazir-Bold.woff') format('woff'),
+//     url('../../assets/fonts/Vazir-Bold.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: VazirMedium;
+//   src: url('../../assets/fonts/Vazir-Medium.eot');
+//   src: url('../../assets/fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+//     url('../../assets/fonts/Vazir-Medium.woff2') format('woff2'),
+//     url('../../assets/fonts/Vazir-Medium.woff') format('woff'),
+//     url('../../assets/fonts/Vazir-Medium.ttf') format('truetype');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: VazirThin;
+//   src: url('../../assets/fonts/Vazir-Thin.eot');
+//   src: url('../../assets/fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+//     url('../../assets/fonts/Vazir-Thin.woff2') format('woff2'), url('../../assets/fonts/Vazir-Thin.woff') format('woff'),
+//     url('../../assets/fonts/Vazir-Thin.ttf') format('truetype');
+//   font-weight: 100;
+//   font-style: normal;
+// }
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  // direction: ltr;
+  // text-align: right;
+  color: $darkGrayColor;
+}
+p {
+  font-size: $pTextSize;
+  line-height: $pLineHeight;
+}
+[class*='Title'] {
+  // font-family: VazirBold;
+}
+.normalTitle {
+  font-size: $normalTitleSize;
+}
+.bigTitle {
+  font-size: $bigTitleSize;
+}
+.boldText{
+  font-weight: bold;
+}
+.textAlignCenter {
+  text-align: center;
+}
+.textAlignLeft {
+  text-align: left;
+}
+.textAlignRight {
+  text-align: Right;
+}
+.boldFont {
+  // font-family: VazirBold;
+}

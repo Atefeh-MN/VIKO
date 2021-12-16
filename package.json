@@ -1,0 +1,13 @@
+{
+  "name": "ses9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+
+    "compile:scss":"node-sass scss/main.scss style/style.css --watch"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

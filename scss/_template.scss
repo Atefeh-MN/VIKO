@@ -1,0 +1,124 @@
+[class^='col-'],
+[class*=' col-'] {
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+.d_flex {
+  display: flex;
+}
+.diColumn {
+  flex-direction: column;
+}
+.diRow {
+  flex-direction: row;
+}
+.diColumnReverese {
+  flex-direction: column-reverse;
+}
+.diRowReverse {
+  flex-direction: row-reverse;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.wrapReverse {
+  flex-wrap: wrap-reverse;
+}
+.jcStart {
+  justify-content: flex-start;
+}
+.jcEnd {
+  justify-content: flex-end;
+}
+.jcAround {
+  justify-content: space-around;
+}
+.jcBetween {
+  justify-content: space-between;
+}
+.jcEvenly {
+  justify-content: space-evenly;
+}
+.jcCenter {
+  justify-content: center;
+}
+
+.aiStart {
+  align-items: flex-start;
+}
+.aiEnd {
+  align-items: flex-end;
+}
+.aiSteretch {
+  align-items: stretch;
+}
+.aiCenter {
+  align-items: center;
+}
+.aiBaseline {
+  align-items: baseline;
+}
+.acStart {
+  align-content: flex-start;
+}
+.acEnd {
+  align-content: flex-end;
+}
+.acCenter {
+  align-content: center;
+}
+.acStretch {
+  align-content: stretch;
+}
+.acBetween {
+  align-content: space-between;
+}
+.acAround {
+  align-content: space-around;
+}
+.asCenter {
+  align-self: center;
+}
+// flex items
+.orderFirst {
+  order: -1;
+}
+.orederLast {
+  order: $grid_count;
+}
+
+
+.visibleDes {
+  display: none;
+}
+.visibleMob {
+  display: none;
+}
+.visibleTab {
+  display: none;
+}
+.verticalGap {
+  padding: $verticalGap 0;
+}
+@media screen and (min-width: nth(nth($grids,2),2)) {
+  .visibleDes {
+    display: flex;
+  }
+}
+@media screen and (min-width: nth(nth($grids,3),2)) and (max-width: nth(nth($grids,2),2)) {
+  .visibleTab {
+    display: flex;
+  }
+}
+@media screen and (max-width: nth(nth($grids,3),2)) {
+  .visibleTab {
+    display: none;
+  }
+  .visibleMob {
+    display: flex;
+  }
+}

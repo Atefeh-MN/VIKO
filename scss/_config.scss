@@ -1,0 +1,32 @@
+$grids: ((des, 1200px), (tab, 900px), (mob, 600px));
+$grid_count: 5;
+//baseTransitions
+$fastTransition: 200ms ease-in-out;
+$mediumTransition: 500ms ease-in-out;
+$slowTransition: 1s ease-in-out;
+//colors:
+$primaryColor: #007bff;
+$secondaryColor: #6c757d;
+$successColor: #28a745;
+$dangerColor: #dc3545;
+$warningColor: #ffc107;
+$infoColor: #17a2b8;
+$darkGrayColor: #343a40;
+$whiteColor: #fff;
+$mutedColor: #999;
+$panelColor:#f5f5f5;
+//template
+$verticalGap: 50px;
+//inputs
+$inputThickness: 2px;
+
+//typoGraphy
+$pTextSize: 1.4rem;
+$pLineHeight: 1.9em;
+$bigTitleSize: 10rem;
+$normalTitleSize: 4rem;
+$inputTextSize: 1.6rem;
+//theme config
+$btnPad: 5rem 2.5rem;
+$btnRadius: 2.5rem;
+$hoverDarkenValue: 20%;
